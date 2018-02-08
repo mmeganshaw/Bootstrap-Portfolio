@@ -1,3 +1,9 @@
+/*Things I Need To Fix: 
+My name won't span the bar and I have no idea why
+Connect with me section won't align next to my main content any any three of these pages
+Responsiveness seems to work okay? */
+
+
 footer {
   position: fixed;
   left: 0;
@@ -87,7 +93,6 @@ h2 {
     margin: 20px 0px;
 }
 
-/*About page content*/
 #prof-pic {
     width: 200px;
     height: 150px;
@@ -109,7 +114,6 @@ p {
     clear: both;
 }
 
-/*Portfolio page content*/
 
 .container, .container-2, .container-3, .container-4 {
     position: relative;
@@ -119,7 +123,7 @@ p {
     margin: 10px;
 }
 
-.port {
+.portfolio {
     width: 200px;
     height: 200px;
 } 
@@ -138,7 +142,6 @@ h4 {
     width: 100%;
 }
 
-/*Contact page content*/
 label {
     display: block;
     width: 100%;
@@ -166,7 +169,6 @@ button {
     margin-top: 10px;
 }
 
-/*Connect with me Content */
 aside {
     max-width: 270px;
     width: 100%;
@@ -189,8 +191,6 @@ h3 {
     margin-top: 8px;
     margin-right: 5px;
 }
-
-
 
 
 @media screen and (max-width: 980px) {
